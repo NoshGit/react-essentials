@@ -7,10 +7,9 @@ const CoreConcept = () => {
     <section id="core-concepts">
       <h2>Core Concept Component</h2>
       <ul>
-        <ConceptCard {...CORE_CONCEPTS[0]} />
-        <ConceptCard {...CORE_CONCEPTS[1]} />
-        <ConceptCard {...CORE_CONCEPTS[2]} />
-        <ConceptCard {...CORE_CONCEPTS[3]} />
+        {CORE_CONCEPTS.map((concept) => (
+          <ConceptCard {...concept} />
+        ))}
       </ul>
     </section>
   );

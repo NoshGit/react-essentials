@@ -1,7 +1,7 @@
 import ReactIcon from '../../assets/react-core-concepts.png';
 import './Header.css';
 
-const reactDescriptiveWords = ['Fundamental', 'crucial', 'Core'];
+const reactDescriptiveWords = ['Fundamental', 'Crucial', 'Core'];
 
 const genRandomInt = (max) => {
   return Math.floor(Math.random() * (max + 1));
