@@ -8,7 +8,7 @@ const CoreConcept = () => {
       <h2>Core Concept Component</h2>
       <ul>
         {CORE_CONCEPTS.map((concept) => (
-          <ConceptCard {...concept} />
+          <ConceptCard key={concept.title} {...concept} />
         ))}
       </ul>
     </section>
